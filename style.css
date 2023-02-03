@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+#hero {
+  background: url("/02.02.23/tree\ \(1\).jpg");
+
+  height: 600px;
+  position: relative;
+
+  border: 8px solid black;
+}
+#hero-text {
+  color: darkorange;
+  margin: 50px;
+  font-size: 40px;
+  position: absolute;
+  font-family: "Courgette", cursive;
+  bottom: 30px;
+  right: 24px;
+}
+header {
+  background-color: #8ea7e9;
+  padding: 8px 16px;
+}
+.navbar {
+  float: right;
+  width: 100% -150px;
+  text-align: right;
+}
+.navbar_items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+.navbar_item {
+  display: inline-block;
+  margin: 0 8px;
+}
+.Header_logo {
+  color: #0081b4;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0px 24px;
+}
+.navbar_item a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.navbar_item a:hover {
+  color: #fff2f2;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: #8ea7e9;
+}
+.navbar_item a:active {
+  color: #f7f5eb;
+}
+.navbar_item_contact {
+  padding: 4px 16px;
+  background-color: #567189;
+  border: 1px solid #f7f5eb;
+  border-radius: 12px;
+}
+#work {
+  padding: 100px 10px;
+  text-align: center;
+}
+.row {
+  margin: 40px;
+}
+#work h2 {
+  color: #7286d3;
+  font-size: 30px;
+}
+.col-3 {
+  display: inline-block;
+  width: 30%;
+}
+.icon h3 {
+  color: cornflowerblue;
+  font-size: 28px;
+}
+.icon span {
+  color: #f48484;
+  font-size: 60px;
+}
+.col-2 {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 350px;
+  background-color: #fff2f2;
+  border-radius: 32px;
+  margin-bottom: 32px;
+}
+.experience-left {
+  background: url("/02.02.23/coding-man.jpg");
+  background-size: cover;
+  background-position: left;
+}
+.experience-right {
+  padding: 30px;
+  vertical-align: top;
+}
+#experience a {
+  background-color: #567189;
+  color: #fff2f2;
+  padding: 6px 15px;
+  border: 1px solid #f48484;
+  text-decoration: none;
+  border-radius: 12px;
+}
+#experience a:hover {
+  background-color: #f48484;
+  color: #fff2f2;
+  padding: 6px 15px;
+  border: 1px solid #567189;
+  text-decoration: none;
+  border-radius: 12px;
+}
+#experience p {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-indent: 16px;
+  text-align: justify;
+}
+#experience h3 {
+  margin-top: 24px;
+  font-family: "VT323", monospace;
+  text-align: center;
+}
